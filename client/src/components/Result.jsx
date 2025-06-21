@@ -6,8 +6,8 @@ const Result = ({ redemptionDate }) => {
 
   return (
     <div className="result-grid">
-      <DateCard title="Weekly Contest Participation (2 bits) and POTD" date={redemptionDate.withContest} />
-      <DateCard title="POTD" date={redemptionDate.withoutContest} />
+      <DateCard title="Weekly Contest + POTD" date={redemptionDate.withContest} />
+      <DateCard title="Only POTD" date={redemptionDate.withoutContest} />
 
       <div className="result-links">
         <a
